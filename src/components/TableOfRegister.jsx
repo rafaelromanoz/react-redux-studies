@@ -19,7 +19,6 @@ function TableOfRegister({ register, delectAction, idForEdit}) {
             <th>Id</th>
             <th>First Name</th>
             <th>Last name</th>
-            <th>User name</th>
             <th>City</th>
             <th>State</th>
           </tr>
