@@ -51,7 +51,7 @@ function Register({ reducerAction, editSwitch }) {
               />
             </Form.Group>
             <Form.Group as={Col} md="4" controlId="validationCustom02">
-              <Form.Label>Last name</Form.Label>
+              <Form.Label>Last names</Form.Label>
               <Form.Control
                 value={lName}
                 onChange={({ target }) => setLName(target.value)}
