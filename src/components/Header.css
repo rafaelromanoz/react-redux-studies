@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  background-color: #434343;
+  justify-content: end;
+  height: 65px;
+  color: white;
+}
+
+.header #title {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  margin-right: 20px;
+}
+
+.header #offCanvas {
+  display: flex;
+  justify-content: end;
+}
