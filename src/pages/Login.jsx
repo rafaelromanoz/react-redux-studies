@@ -25,7 +25,7 @@ function Login({loginAction}) {
   return (
     <div className="Login">
       <Form>
-        <h4> Sign in 😻 </h4>
+        <h4> Sign in 🙂 </h4>
         <Form.Group size="lg" controlId="email">
           <Form.Label>Email</Form.Label>
           <Form.Control

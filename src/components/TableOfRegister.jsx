@@ -24,7 +24,6 @@ function TableOfRegister({ register, delectAction, idForEdit}) {
           </tr>
         </thead>
         <tbody>
-          {console.log(register)}
             {register.map(({ id, fName, lName, city, state }) => (
               <tr>
                 <td>{id}</td>
