@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Col, Form, InputGroup, Row, Button } from 'react-bootstrap';
+import { Col, Form , Row, Button } from 'react-bootstrap';
 import { connect } from 'react-redux';
 import './Register.css';
 import states from '../utils/states';
