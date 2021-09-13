@@ -8,7 +8,7 @@ import TableOfRegister from '../components/TableOfRegister';
 import toast, { Toaster } from 'react-hot-toast';
 import ModalEdit from '../components/ModalEdit';
 
-function Register({ reducerAction, editSwitch }) {
+function Register({ reducerAction }) {
   const [fName, setFName] = useState('');
   const [lName, setLName] = useState('');
   const [city, setCity] = useState('');
